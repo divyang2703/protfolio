@@ -1,0 +1,337 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+
+    <!-- Title: add your Portfolio websites's title here -->
+    <title>Divyang Sheth | Developer</title>
+
+    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="divyang_2701, Divyang Sheth, Reactjs" />
+
+    <!-- Improve your SEO by adding a small descrption of you -->
+    <meta name="description" content="Divyang Sheth | Developer" />
+
+    <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
+    <link rel="icon" type="image/png" href="./assets/devfolio-logo.png" />
+
+    <!-- Add your primary-theme color for the value of content -->
+    <meta name="theme-color" content="#36d1dc" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <!-- Fill content with the URL of this portfolio you'll host -->
+    <meta property="og:url" content="https://devfolio.js.org/" />
+    <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
+    <meta property="og:title" content="Divyang Sheth | Developer" />
+    <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
+    <meta property="og:description" content="Made using DevFolio Template" />
+    <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail 
+      so that a thumbnail image of your portfolio is shown while shared on other platform -->
+    <meta
+      property="og:image"
+      content="https://devfolio.js.org/assets/devfolio.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <!-- Again fill content attr with the URL of this portfolio you'll host -->
+    <meta property="twitter:url" content="https://devfolio.js.org" />
+    <!-- Recommended to use the same text used within <title> element -->
+    <meta property="twitter:title" content="DIvyang Sheth | Developer" />
+    <!-- short description that shows up while your portfolio is shared -->
+    <meta
+      property="twitter:description"
+      content="Made using DevFolio Template"
+    />
+    <!-- Fill content with the URL to the thumbnail image that you'll put in the assets folder -->
+    <meta
+      property="twitter:image"
+      content="https://anilseervi.vercel.app/assets/devfolio.png"
+    />
+
+    <!-- link tags -->
+    <link rel="preload" as="style" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- FontAwesome Icons link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="./javascript/scrollreveal.min.js"></script>
+    <script
+      defer
+      type="text/javascript"
+      src="./javascript/scrollveal.js"
+    ></script>
+
+    <!-- Remove Google Analytics once you have your portfolio website set-up -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-122228201-4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag("js", new Date())
+
+      gtag("config", "UA-122228201-4")
+    </script>
+    <!-- End of Google Analytics -->
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <div id="hero">
+      <section class="container">
+        <h1 class="hero-title">
+          Hi, my name is <span class="text-color-main name">Divyang Sheth</span>
+          <br />
+          I'm the Software Developer.
+        </h1>
+        <p class="hero-cta">
+          <a class="cta-btn cta-btn--hero" href="#projects">My Work!</a>
+        </p>
+      </section>
+      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+        <div class="scroll-down"></div
+      ></a>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__image">
+            <img
+              class="img-fluid"
+              src="./assets/profile.jpg"
+              alt="Profile Image"
+              width="450"
+              height="350"
+            />
+          </div>
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              <b>I am a dedicated Software Developer with a specialization in Design and Front-End Development.</b>
+            </p>
+            <p class="about-wrapper__info-text">
+              My enthusiasm for technology is particularly focused on areas such as Next.js and app development. I derive immense satisfaction from staying abreast of emerging industry trends and incorporating them to enhance user experiences and streamline processes. In essence, I have a strong passion for coding and a keen interest in sports, specifically football.
+              <br/>
+              <b>Please do not hesitate to contact me through any preferred communication platform</b>
+            </p>
+            <span class="about-wrapper__cta">
+              <a href="https://github.com/divyang2703" target="_blank" class="cta-btn cta-btn--resume">View GitHub</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!--Projects Section-->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Pace Clean</h3>
+              <p class="project-wrapper__text-info">
+                "Pace Clean" is a versatile cleaning company that specializes in residential, commercial, and industrial cleaning services. With a highly trained team, eco-friendly practices, and cutting-edge equipment, they offer customized solutions at competitive prices. Their commitment to customer satisfaction, punctuality, and environmental responsibility makes them a top choice for comprehensive cleaning needs.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a href="https://github.com/divyang2703/Pace-Clean" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="https://github.com/divyang2703/Pace-Clean" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/paceclean.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Paradise Customs</h3>
+              <p class="project-wrapper__text-info">
+                "Paradise Customs" is your one-stop car servicing company, offering a full spectrum of automotive services. With a team of experienced mechanics and state-of-the-art facilities, they provide everything from routine maintenance to custom upgrades. Whether it's oil changes, diagnostics, bodywork, or performance enhancements, Paradise Customs is committed to delivering top-notch service, ensuring your vehicle looks and runs its best.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a href="https://github.com/divyang2703/Paradise-Customs" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="https://github.com/divyang2703/Paradise-Customs" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/paradisecustoms.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Pace Connect</h3>
+              <p class="project-wrapper__text-info">
+                "Pace Connect" is a dynamic social media marketing agency, offering a comprehensive suite of services to boost your online presence. From strategic content creation and engaging campaigns to data-driven analytics, they specialize in expanding your digital reach. Paradise Customs tailors marketing solutions to your unique goals, ensuring your brand shines across various platforms, driving engagement and growth.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a href="https://github.com/divyang2703/pace-connect" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="https://github.com/divyang2703/pace-connect" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/paceconnect.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">TO-DO Webapp</h3>
+              <p class="project-wrapper__text-info">
+                A "Todo Web App" is a versatile online application that facilitates Create, Read, Update, and Delete (CRUD) operations for managing tasks or to-do lists. Users can effortlessly add, view, edit, and remove tasks, providing a seamless and organized way to keep track of their responsibilities and goals. This web app simplifies task management, making it a valuable tool for enhancing productivity and staying organized.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a href="https://github.com/divyang2703/To-Do" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="https://github.com/divyang2703/To-Do" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/TODO.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">I'm looking for new challenges. Is there anything that you need help building?</p>
+          <a href="https://rb.gy/vr150" target="_blank" class="cta-btn cta-btn--resume">Call to Action</a>
+        </div>
+      </div>
+    </section>
+    <!-- END Contact Section -->
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <a href="#hero" class="back-to-top" aria-label="go back to top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a
+            href="https://twitter.com/divyang_2702"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="twitter"
+          >
+            <i class="fa-brands fa-twitter"></i>
+          </a>D
+          <a
+            href="https://instagram.com/divyang_2701?igshid=OGQ5ZDc2ODk2ZA=="
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="instagram"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/divyang-sheth-bb3a381bb/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="codepen"
+          >
+            
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/divyang2703"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="github"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+        <hr />
+      </div>
+    </footer>
+    <!-- END Footer Section -->
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear()
+    </script>
+    <script src="./javascript/vanilla-tilt.min.js"></script>
+    <script type="text/javascript" src="./javascript/valtilt.js"></script>
+  </body>
+</html>
